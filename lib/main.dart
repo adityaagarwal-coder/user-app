@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {MyRoutes.signuproute: (context) => Home()},
+      routes: {MyRoutes.homeroute: (context) => Home()},
     );
   }
 }
